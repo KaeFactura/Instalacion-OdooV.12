@@ -36,7 +36,7 @@ sudo git clone https://github.com/odoocr/l10n_cr.git
 sudo pip3 install -r /opt/odoo12/extra-addons/l10n_cr/requirements.txt
 
 5. Modificar el archivo conf de acuerdo a su ambiente
-sudo vim /opt/odoo/config/odoo12.conf
+sudo nano /opt/odoo/config/odoo12.conf
 Sustituir "vim" por el editor de texto de su elección
 
 Agregar la ruta completa de los módulos personalizados y de l10n_cr al addons_path
